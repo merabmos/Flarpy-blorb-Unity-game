@@ -8,6 +8,8 @@ public class LogicScript : MonoBehaviour
     public int playerScore;
     public Text scoreText;
     public GameObject gameOverScreen;
+    public float minScoreToGetFast = 0;
+    public float fastingPointsAfterGetMinScore = 0;
 
     [ContextMenu("Increase Score")]
     public void AddScore(int scoreToAdd)
